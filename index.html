@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Srilekha  — Data Analyst</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@400;600;700&family=IM+Fell+English:ital@0;1&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+
+  <!-- Portfolio Styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ════════════════════════════════════════
+       CURSOR GLOW
+  ════════════════════════════════════════ -->
+  <div id="cursor-glow"></div>
+
+  <!-- ════════════════════════════════════════
+       FLOATING PARTICLES
+  ════════════════════════════════════════ -->
+  <div id="particles"></div>
+
+  <!-- ════════════════════════════════════════
+       NAVIGATION
+  ════════════════════════════════════════ -->
+  <nav>
+    <div class="nav-sigil">S · N</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Works</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════ -->
+  <section id="hero">
+
+    <!-- Decorative Spider Webs -->
+    <svg class="spider-web" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#8b0000">
+        <line x1="150" y1="0"   x2="150" y2="300" stroke-width="0.5"/>
+        <line x1="0"   y1="150" x2="300" y2="150" stroke-width="0.5"/>
+        <line x1="0"   y1="0"   x2="300" y2="300" stroke-width="0.5"/>
+        <line x1="300" y1="0"   x2="0"   y2="300" stroke-width="0.5"/>
+        <line x1="75"  y1="0"   x2="225" y2="300" stroke-width="0.5"/>
+        <line x1="225" y1="0"   x2="75"  y2="300" stroke-width="0.5"/>
+        <circle cx="150" cy="150" r="30"  stroke-width="0.5"/>
+        <circle cx="150" cy="150" r="60"  stroke-width="0.5"/>
+        <circle cx="150" cy="150" r="90"  stroke-width="0.5"/>
+        <circle cx="150" cy="150" r="120" stroke-width="0.5"/>
+        <circle cx="150" cy="150" r="150" stroke-width="0.5"/>
+      </g>
+    </svg>
+
+    <svg class="spider-web-left" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <g stroke="#8b0000">
+        <line x1="150" y1="0"   x2="150" y2="300" stroke-width="0.5"/>
+        <line x1="0"   y1="150" x2="300" y2="150" stroke-width="0.5"/>
+        <line x1="0"   y1="0"   x2="300" y2="300" stroke-width="0.5"/>
+        <line x1="300" y1="0"   x2="0"   y2="300" stroke-width="0.5"/>
+        <circle cx="150" cy="150" r="40"  stroke-width="0.5"/>
+        <circle cx="150" cy="150" r="80"  stroke-width="0.5"/>
+        <circle cx="150" cy="150" r="120" stroke-width="0.5"/>
+      </g>
+    </svg>
+
+    <div class="hero-eyebrow">Data Analyst · Hyderabad, India</div>
+
+    <h1 class="hero-name">
+      Srilekha 
+      <span class="glitch-layer" aria-hidden="true">Srilekha </span>
+    </h1>
+
+    <div class="hero-divider"></div>
+
+    <p class="hero-tagline">
+      <em>Conjuring insight from the abyss of raw data — one query at a time.</em>
+    </p>
+
+    <div class="hero-links">
+      <a href="mailto:srilekhanalli12@gmail.com" class="btn-ghost">Summon via Email</a>
+      <a href="https://www.linkedin.com/in/srilekha-nalli-428120252/" target="_blank" class="btn-ghost">LinkedIn</a>
+      <a href="https://github.com/srilekhanalli28-hub" target="_blank" class="btn-ghost">GitHub</a>
+      <a href="files/Srilekhanalli_Resume.pdf" class="btn-ghost btn-download" onclick="downloadResume(event)">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             style="display:inline-block;vertical-align:middle;margin-right:6px;margin-top:-2px;">
+          <path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/>
+          <polyline points="7 10 12 15 17 10"/>
+          <line x1="12" y1="15" x2="12" y2="3"/>
+        </svg>
+        <span class="btn-download-text">Download Resume</span>
+      </a>
+    </div>
+
+    <div class="scroll-hint">
+      <span>Descend</span>
+      <div class="scroll-arrow"></div>
+    </div>
+
+  </section>
+
+  <!-- ════════════════════════════════════════
+       ABOUT
+  ════════════════════════════════════════ -->
+  <section id="about">
+    <div class="section-inner">
+
+      <div class="section-label">Chapter I</div>
+      <h2 class="section-title">The Summoner</h2>
+
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <p>A <strong>detail-oriented and analytical Data Analyst</strong> with a solid command over SQL, Python, Power BI, and Advanced Excel — versed in the dark arts of turning chaos into clarity.</p>
+          <p>Practical experience gained through academic and personal initiatives in <strong>data cleaning, exploratory data analysis (EDA), ETL operations</strong>, and dashboard creation.</p>
+          <p>Proficient in transforming raw, unstructured data into <strong>actionable insights</strong> that guide informed business decisions. Graduated in Computer Science from Adhikavi Nannaya University, 2024.</p>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-num">75K+</div>
+            <div class="stat-label">Records Processed</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">87%</div>
+            <div class="stat-label">Model Accuracy</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">40%</div>
+            <div class="stat-label">Effort Reduced</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-num">3</div>
+            <div class="stat-label">Major Projects</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div style="margin-top: 4rem;" class="reveal">
+        <div class="section-label">Lineage</div>
+        <h3 style="font-family:'Cinzel',serif; font-size:1.5rem; color:var(--bone); margin-bottom:2rem; letter-spacing:0.05em;">Education</h3>
+
+        <div class="edu-timeline">
+
+          <div class="edu-item">
+            <div class="edu-degree">Bachelor of Computer Science</div>
+            <div class="edu-school">Adhikavi Nannaya University</div>
+            <div class="edu-meta">
+              <span class="edu-year">2024</span>
+              <span>CGPA: 7.46 / 10</span>
+            </div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-degree">Intermediate — MPC</div>
+            <div class="edu-school">Heavens Junior College</div>
+            <div class="edu-meta">
+              <span class="edu-year">2018</span>
+              <span>CGPA: 6.5 / 10</span>
+            </div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-degree">Secondary Education — 10th Grade</div>
+            <div class="edu-school">Santhinikethan English Medium High School</div>
+            <div class="edu-meta">
+              <span class="edu-year">2016</span>
+              <span>CGPA: 7.3 / 10</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       DRIP DIVIDER
+  ════════════════════════════════════════ -->
+  <div class="drip-divider">
+    <div class="drip" style="height:50px; animation-duration:2.2s; animation-delay:0s;"></div>
+    <div class="drip" style="height:30px; animation-duration:2.8s; animation-delay:0.4s;"></div>
+    <div class="drip" style="height:60px; animation-duration:2s;  animation-delay:0.8s;"></div>
+    <div class="drip" style="height:25px; animation-duration:3s;  animation-delay:1.2s;"></div>
+    <div class="drip" style="height:45px; animation-duration:2.5s; animation-delay:0.2s;"></div>
+  </div>
+
+  <!-- ════════════════════════════════════════
+       PROJECTS
+  ════════════════════════════════════════ -->
+  <section id="projects">
+    <div class="section-inner">
+
+      <div class="section-label">Chapter II</div>
+      <h2 class="section-title">Dark Experiments</h2>
+
+      <div class="project-grid">
+
+        <!-- Project 01 -->
+        <div class="project-card reveal" onmousemove="trackMouse(this, event)">
+          <div class="project-num">01</div>
+          <div class="project-tag">Power BI · Python · SQL</div>
+          <div class="project-name">Sales Dashboard</div>
+          <ul class="project-points">
+            <li>Processed and cleaned 75,000+ sales records using Python (Pandas) and SQL to eliminate noise from the data.</li>
+            <li>Conjured an interactive Power BI dashboard visualizing revenue, profit margin, region-wise performance, and customer segmentation.</li>
+            <li>Identified underperforming regions and recommended strategies leading to a simulated 20% improvement in revenue.</li>
+          </ul>
+        </div>
+
+        <!-- Project 02 -->
+        <div class="project-card reveal" onmousemove="trackMouse(this, event)" style="transition-delay:0.15s">
+          <div class="project-num">02</div>
+          <div class="project-tag">ML · Scikit-learn · EDA</div>
+          <div class="project-name">Customer Churn Prediction Model</div>
+          <ul class="project-points">
+            <li>Performed exploratory data analysis on a telecom dataset of 50,000+ records to unearth hidden patterns of departure.</li>
+            <li>Engineered features and implemented Logistic Regression and Random Forest models — achieving 87% prediction accuracy.</li>
+            <li>Identified high-risk customer segments and provided actionable business insights to reduce churn.</li>
+          </ul>
+        </div>
+
+        <!-- Project 03 -->
+        <div class="project-card reveal" onmousemove="trackMouse(this, event)" style="transition-delay:0.3s">
+          <div class="project-num">03</div>
+          <div class="project-tag">Excel · Power BI · HR Analytics</div>
+          <div class="project-name">HR Analytics &amp; Attrition Dashboard</div>
+          <ul class="project-points">
+            <li>Designed Excel and Power BI dashboards to analyze employee attrition, retention rate, and performance metrics across the organization.</li>
+            <li>Automated monthly HR reporting — reducing manual effort by 40% and freeing time for higher-order analysis.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       SKILLS
+  ════════════════════════════════════════ -->
+  <section id="skills">
+    <div class="section-inner">
+
+      <div class="section-label">Chapter III</div>
+      <h2 class="section-title">The Arsenal</h2>
+
+      <div class="skills-grid reveal">
+
+        <div class="skill-group">
+          <div class="skill-group-title">Programming</div>
+          <div class="skill-pills">
+            <span class="pill">Python</span>
+            <span class="pill">Pandas</span>
+            <span class="pill">NumPy</span>
+            <span class="pill">Matplotlib</span>
+            <span class="pill">Seaborn</span>
+            <span class="pill">Scikit-learn</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title">Databases</div>
+          <div class="skill-pills">
+            <span class="pill">MySQL</span>
+            <span class="pill">SQL Queries</span>
+            <span class="pill">ETL Pipelines</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title">Visualization</div>
+          <div class="skill-pills">
+            <span class="pill">Power BI</span>
+            <span class="pill">Tableau</span>
+            <span class="pill">Advanced Excel</span>
+            <span class="pill">Google Sheets</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <div class="skill-group-title">Tools &amp; Env</div>
+          <div class="skill-pills">
+            <span class="pill">Jupyter Notebook</span>
+            <span class="pill">Google Colab</span>
+            <span class="pill">MS Excel</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       ACHIEVEMENTS
+  ════════════════════════════════════════ -->
+  <section id="achievements">
+    <div class="section-inner">
+
+      <div class="section-label">Relics</div>
+      <h2 class="section-title">Achievements</h2>
+
+      <div class="achievement-list reveal">
+
+        <div class="achievement-item">
+          <div class="achievement-icon">✦</div>
+          <div class="achievement-text">
+            Completed <strong>Data Analytics Virtual Experience Program</strong> by Deloitte (via Forage), 2026 — mastering the craft of real-world analytical workflows.
+
+            <br><br>
+
+            <a href="your-certificate-link.pdf" target="_blank" class="btn-ghost">View Certificate ›</a>
+          </div>
+        </div>
+
+        <div class="achievement-item">
+          <div class="achievement-icon">✦</div>
+          <div class="achievement-text">
+            Completed <strong>Data Visualization Virtual Experience Program</strong> by Tata Group (via Forage), 2026 — crafting visual narratives from complex datasets.
+          
+            <br><br>
+            
+            <a href="your-certificate-link.pdf" target="_blank" class="btn-ghost">View Certificate ›</a>
+          </div>
+        </div>
+
+          <div class="achievement-item">
+            <div class="achievement-icon">✦</div>
+            <div class="achievement-text">
+              Completed <strong>AI Hackfest 2026</strong> — contributed as a Data Analyst in developing a Smart Biosecurity Assistant, focusing on data cleaning, exploratory analysis, predictive modeling, and building dashboards for actionable insights and data-driven decision-making.
+            
+            <br><br>
+            
+            <a href="your-certificate-link.pdf" target="_blank" class="btn-ghost">View Certificate ›</a>
+            </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       CONTACT
+  ════════════════════════════════════════ -->
+  <section id="contact">
+    <div class="section-inner">
+
+      <div class="section-label" style="justify-content:center;">Final Invocation</div>
+      <h2 class="section-title reveal" style="text-align:center;">Reach Into The Dark</h2>
+      <p class="reveal" style="color:var(--ash); font-style:italic; text-align:center; max-width:500px; margin:0 auto 3.5rem; line-height:1.9;">
+        Whether you seek insight, collaboration, or merely wish to commune — the portal is eternally open.
+      </p>
+
+      <div class="contact-layout reveal">
+
+        <!-- Left: Contact Info -->
+        <div class="contact-info-panel">
+          <div class="contact-info-title">Direct Channels</div>
+
+          <div class="contact-info-items">
+
+            <a href="tel:+916309412039" class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .93h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                </svg>
+              </div>
+              <div class="contact-info-text">
+                <span class="contact-info-label">Phone</span>
+                <span class="contact-info-value">+91 63094 12039</span>
+              </div>
+            </a>
+
+            <a href="mailto:srilekhanalli12@gmail.com" class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </div>
+              <div class="contact-info-text">
+                <span class="contact-info-label">Email</span>
+                <span class="contact-info-value">srilekhanalli12@gmail.com</span>
+              </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/srilekha-nalli-428120252/" target="_blank" class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/>
+                  <rect x="2" y="9" width="4" height="12"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+              </div>
+              <div class="contact-info-text">
+                <span class="contact-info-label">LinkedIn</span>
+                <span class="contact-info-value">linkedin.com/in/srilekha-nalli</span>
+              </div>
+            </a>
+
+            <a href="https://github.com/srilekhanalli28-hub" target="_blank" class="contact-info-item">
+              <div class="contact-info-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+                </svg>
+              </div>
+              <div class="contact-info-text">
+                <span class="contact-info-label">GitHub</span>
+                <span class="contact-info-value">github.com/srilekhanalli28-hub</span>
+              </div>
+            </a>
+
+            <div class="contact-info-item no-link">
+              <div class="contact-info-icon">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div class="contact-info-text">
+                <span class="contact-info-label">Location</span>
+                <span class="contact-info-value">Hyderabad, Telangana, India</span>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="availability-badge">
+            <span class="avail-dot"></span>
+            <span>Available for opportunities</span>
+          </div>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div class="contact-form-wrap">
+
+          <div class="form-header">
+            <div class="form-rune">✦</div>
+            <div class="form-header-text">
+              <div class="form-header-title">Cast a Message</div>
+              <div class="form-header-sub">I shall respond within 24 hours of receiving your transmission.</div>
+            </div>
+          </div>
+
+          <div class="cf-group">
+            <label class="cf-label" for="cf-name">Your Name</label>
+            <input class="cf-input" id="cf-name" type="text" placeholder="John Doe" autocomplete="off" required/>
+            <span class="cf-border-anim"></span>
+          </div>
+
+          <div class="cf-group">
+            <label class="cf-label" for="cf-email">Your Email</label>
+            <input class="cf-input" id="cf-email" type="email" placeholder="you@example.com" autocomplete="off" required />
+            <span class="cf-border-anim"></span>
+          </div>
+
+          <div class="cf-group">
+            <label class="cf-label" for="cf-subject">Subject</label>
+            <div class="cf-select-wrap">
+              <select class="cf-input cf-select" id="cf-subject">
+                <option value="" disabled selected>Select purpose…</option>
+                <option value="job">Job Opportunity</option>
+                <option value="collab">Collaboration</option>
+                <option value="freelance">Freelance Project</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="cf-select-arrow">›</span>
+            </div>
+            <span class="cf-border-anim"></span>
+          </div>
+
+          <div class="cf-group">
+            <label class="cf-label" for="cf-message">Message</label>
+            <textarea class="cf-input cf-textarea" id="cf-message" rows="5" placeholder="Speak your purpose into the void…" required></textarea>
+            <span class="cf-border-anim"></span>
+          </div>
+
+          <button class="cf-submit" id="cf-btn" onclick="submitForm()">
+            <span id="cf-btn-text">Transmit Message</span>
+            <span class="cf-btn-arrow">→</span>
+          </button>
+
+          <!-- Success State -->
+          <div class="cf-success" id="cf-success">
+            <div class="cf-success-icon">✦</div>
+            <div class="cf-success-title">Message Received</div>
+            <div class="cf-success-sub">Your transmission has been sealed and delivered into the aether. A response shall follow.</div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════ -->
+  <footer id="footer">
+    <div class="footer-inner">
+
+      <!-- Top row -->
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-name">Srilekha </div>
+          <div class="footer-role">Data Analyst · Python · Power BI · SQL</div>
+          <p class="footer-bio">
+            Transforming the chaos of raw data into the clarity of actionable insight — with precision, patience, and a touch of the arcane.
+          </p>
+        </div>
+
+        <div class="footer-cols">
+          <div class="footer-col">
+            <div class="footer-col-title">Navigate</div>
+            <ul class="footer-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#achievements">Achievements</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">Connect</div>
+            <ul class="footer-links">
+              <li><a href="mailto:srilekhanalli12@gmail.com">Email</a></li>
+              <li><a href="https://www.linkedin.com/in/srilekha-nalli-428120252/" target="_blank">LinkedIn</a></li>
+              <li><a href="https://github.com/srilekhanalli28-hub" target="_blank">GitHub</a></li>
+              <li><a href="tel:+916309412039">Phone</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <div class="footer-col-title">Expertise</div>
+            <ul class="footer-links footer-static">
+              <li>Data Analysis</li>
+              <li>Dashboard Design</li>
+              <li>Machine Learning</li>
+              <li>ETL &amp; SQL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Divider -->
+      <div class="footer-divider">
+        <div class="footer-rune">— ✦ —</div>
+      </div>
+
+      <!-- Bottom row -->
+      <div class="footer-bottom">
+        <div class="footer-copy">© 2026 Srilekha  · All rights reserved · Hyderabad, India</div>
+        <div class="footer-craft">Crafted in Shadow &amp; Precision</div>
+        <button class="footer-top-btn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+          ↑ Back to top
+        </button>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Portfolio JavaScript — loaded at end of body for best performance -->
+  <script src="script.js"></script>
+
+</body>
+</html>
