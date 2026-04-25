@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* ============================================================
    SRILEKHA N — PORTFOLIO STYLESHEET
    File: styles.css
@@ -1201,18 +1201,6 @@ footer {
   .footer-top          { grid-template-columns: 1fr; gap: 2.5rem; }
   .footer-cols         { grid-template-columns: repeat(2, 1fr); }
   .footer-bottom       { flex-direction: column; text-align: center; }
-=======
-/* ============================================================
-   SRILEKHA N — PORTFOLIO STYLESHEET
-   File: styles.css
-   Theme: Creepy-Elegant Gothic Dark
-   ============================================================ */
-
-/* ─── RESET & ROOT VARIABLES ─── */
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 :root {
@@ -2404,5 +2392,5 @@ footer {
   .footer-top          { grid-template-columns: 1fr; gap: 2.5rem; }
   .footer-cols         { grid-template-columns: repeat(2, 1fr); }
   .footer-bottom       { flex-direction: column; text-align: center; }
->>>>>>> 41dc19c140e3664a7ab10ae1e231b9e21e2ed661
+
 }
